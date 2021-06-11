@@ -1,0 +1,457 @@
+@import url(../css/grid.css);
+@import url(../css/spacing.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_section {
+    background-image: url(../img/slider-1-2050x1009.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+}
+
+.header_zone {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_icon {
+    background-image: url(../img/logo-default-164x61.png);
+    background-repeat: no-repeat;
+    width: 163px;
+    height: 62px;
+    position: absolute;
+    left: 163px;
+    top: 28px;
+}
+
+.header_location {
+    color: white;
+    position: relative;
+    left: 370px;
+    top: 28px;
+}
+
+.header_overlay {
+    width: 36%;
+    height: 100%;
+    background-color: #4A4A4A;
+    opacity: 73%;
+    position: absolute;
+    right: 4px;
+}
+
+.street {
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.number {
+    color: #212121;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.black_line {
+    width: 104%;
+    height: 78px;
+    background-color: #212121;
+    margin: 42px -30px;
+    position: relative;
+}
+
+.menu_ul {
+    display: flex;
+    padding: 0px 18px 0px 136px;
+}
+
+.menu_list {
+    padding: 26px;
+    border-right: 0.0005px solid gray;
+    border-left: 0.0005px solid gray
+}
+
+.news_header {
+    background-color: #73B711;
+}
+
+.menu_link {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.menu_list:hover {
+    background-color: #73B711;
+    color: white;
+}
+
+::selection {
+    background-color: #73B711;
+    color: white;
+}
+
+.section1 {
+    background-color: #EDEDED;
+}
+
+.row_display {
+    display: flex;
+}
+
+.news_zone_right {
+    width: 97%;
+    height: 1375px;
+}
+
+.right_news {
+    padding: 99px 100px 0px;
+    margin-left: 26px;
+}
+
+.right_name {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+
+.news {
+    color: #73B711;
+}
+
+.right_img {
+    background-image: url(../img/news-img-01.jpg);
+    width: 770px;
+    height: 400px;
+}
+
+.twotext_main {
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding: 0px 0px 32px 0px;
+    margin: 0px -60px 0px 0px;
+}
+
+.dates {
+    padding: 13px 0px 0px 0px;
+    display: flex;
+}
+
+.calendar {
+    color: #73B711;
+    font-size: 22px;
+}
+
+.text_main1 {
+    width: 107%;
+    margin: 9px 0px 14px 0px;
+}
+
+.line1 {
+    border-bottom: 1px gray solid;
+    padding: 0px 0px 18px 0px;
+}
+
+.text_a_line {
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    text-decoration: none;
+}
+
+.date {
+    padding: 4px 13px;
+}
+
+.date_grey {
+    color: #6E6E6E;
+}
+
+.text_a {
+    font-size: 21px;
+    font-weight: 600;
+    color: #212121;
+    text-decoration: none;
+}
+
+.text_a:hover {
+    color: #73B711;
+}
+
+.paragraf_1 {
+    width: 777px;
+    color: #6E6E82;
+    border-bottom: 1px solid gray;
+    padding: 0px 0px 22px 0px;
+}
+
+.arrow {
+    color: #73B711;
+}
+
+.arrow:hover {
+    color: black;
+}
+
+.texts {
+    width: 114%;
+}
+
+.dates2 {
+    margin: 25px 0px 0px 0px;
+}
+
+.text1 {
+    color: #6E6E82;
+    width: 371px;
+    margin-top: 8px;
+}
+
+.second_main {
+    margin: 0px 23px;
+}
+
+.line_text {
+    padding: 33px 0px 0px 0px;
+}
+
+.news_zone_left {
+    width: 119%;
+    height: 100%;
+    background-color: #4A4A4A;
+    margin-left: -58px;
+}
+
+.left_news {
+    padding: 99px 38px 0px;
+}
+
+.left_name {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 21px;
+    color: white;
+}
+
+.leftimg_1 {
+    background-image: url(../img/gargantua-img-01.jpg);
+    width: 342px;
+    height: 200px;
+    margin-top: 27px;
+    background-repeat: no-repeat;
+}
+
+.dates3 {
+    margin: 4px 0px 0px 0px;
+}
+
+.calendar_left {
+    color: #73B711;
+    font-size: 22px;
+}
+
+.date_white {
+    color: white;
+}
+
+.text_a_left {
+    color: #73B711;
+}
+
+.text_a_left:hover {
+    color: white;
+}
+
+.text1_left {
+    color: white;
+    font-size: 17px;
+    border-bottom: 1px solid gray;
+    padding: 0px 0px 18px 0px;
+}
+
+.leftimg_2 {
+    background-image: url(../img/gargantua-img-02.jpg);
+    width: 342px;
+    height: 200px;
+    margin-top: 27px;
+    background-repeat: no-repeat;
+}
+
+.leftimg_3 {
+    background-image: url(../img/gargantua-img-03.jpg);
+    width: 342px;
+    height: 200px;
+    margin-top: 27px;
+    background-repeat: no-repeat;
+}
+
+.section2 {
+    background-color: #212121;
+    width: 100%;
+    height: 1000px;
+}
+
+.end_zone_left {
+    height: 122vh;
+}
+
+.DRIVETRAIN_REPAIR {
+    width: 190px;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 21px;
+    padding: 0px 68px;
+    margin: 96px 67px;
+}
+
+.repair {
+    color: #73B711;
+}
+
+.blocks {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 68px;
+    margin: -79px 67px;
+}
+
+.block_padd {
+    padding: 0px 37px;
+}
+
+.img_1,
+.img_2,
+.img_3,
+.img_4 {
+    background-repeat: no-repeat;
+    width: 366px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: contain;
+}
+
+.img_1 {
+    background-image: url(../img/box-nina-img-3-370x250.jpg);
+}
+
+.img_2 {
+    background-image: url(../img/box-nina-img-4-370x250.jpg);
+}
+
+.img_3 {
+    background-image: url(../img/box-nina-img-5-370x250.jpg);
+}
+
+.img_4 {
+    background-image: url(../img/box-nina-img-6-370x250.jpg);
+}
+
+.end_zone_right {
+    background-color: #73B711;
+    width: 119%;
+    height: 138.5vh;
+    margin: 0px -59px;
+}
+
+.text_img {
+    padding: 90px 0
+}
+
+.repair_black {
+    color: #212121;
+}
+
+.DRIVETRAIN_REPAIR_2 {
+    width: 190px;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 21px;
+    padding: 0px -15px;
+    margin: 0px 31px;
+}
+
+.calendar_right {
+    color: white;
+}
+
+.text_a_right {
+    color: #212121;
+}
+
+.arrow_right {
+    color: white;
+}
+
+.end_rightimg_1 {
+    background-image: url(../img/gargantua-img-04.jpg);
+}
+
+.end_block1,
+.end_block2 {
+    margin: 0px 33px;
+}
+
+.end_rightimg_2 {
+    background-image: url(../img/gargantua-img-05.jpg);
+}
+
+.read_more_block {
+    position: relative;
+}
+
+.read_more {
+    background-color: #73B711;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    bottom: -261px;
+    left: 131px;
+    padding: 26px;
+}
+
+.read_more:hover {
+    background-color: white;
+    color: #73B711;
+    transition: all 0.9 ease 0.9
+}
+
+.black_zone {
+    background-color: black;
+    width: 100%;
+    height: 69px;
+    margin-top: -2px;
+}
+
+.end_text {
+    color: #4A4A4A;
+    color: #4A4A4A;
+    margin: 0px 145px;
+    margin: 0px 0px 0px 145px;
+    padding: 29px 0px;
+    font-size: 14px;
+}
+
+.privacy {
+    color: #73B711;
+}
+
+.privacy:hover {
+    color: white;
+}

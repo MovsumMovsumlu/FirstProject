@@ -1,0 +1,408 @@
+@import url(../css/grid.css);
+@import url(../css/spacing.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ ::selection {
+    background-color: #97e726;
+    color: white;
+}
+
+.header_section {
+    background-image: url(../img/slider-1-2050x1009.jpg);
+    height: 200px;
+    position: relative;
+}
+
+.header_zone {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_icon {
+    background-image: url(../img/logo-default-164x61.png);
+    background-repeat: no-repeat;
+    width: 163px;
+    height: 62px;
+    position: absolute;
+    left: 163px;
+    top: 28px;
+}
+
+.header_location {
+    color: white;
+    position: relative;
+    left: 370px;
+    top: 28px;
+}
+
+.header_overlay {
+    width: 36%;
+    height: 100%;
+    background-color: #4A4A4A;
+    opacity: 73%;
+    position: absolute;
+    right: 4px;
+}
+
+.street {
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.number {
+    color: #212121;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.black_line {
+    width: 104%;
+    height: 78px;
+    background-color: #212121;
+    margin: 42px -30px;
+    position: relative;
+}
+
+.menu_ul {
+    display: flex;
+    padding: 0px 18px 0px 136px;
+}
+
+.menu_list {
+    padding: 26px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.about_header {
+    background-color: #73B711;
+}
+
+.menu_link {
+    color: white;
+    font-size: 23px;
+}
+
+.menu_list:hover {
+    background-color: #73B711;
+    color: white;
+}
+
+.personals {
+    width: 100%;
+    height: 1447px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ourteam {
+    padding: 36px;
+    width: 201px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: -32px;
+}
+
+.personals_row {
+    display: flex;
+}
+
+.team {
+    color: #73B711;
+}
+
+.person_about {
+    width: 100%;
+    height: 93%;
+    margin-top: 52px;
+    margin-left: 131px;
+}
+
+.person_chris {
+    width: 100%;
+    height: 252px;
+    display: flex;
+}
+
+.person_patrick {
+    width: 100%;
+    height: 252px;
+    display: flex;
+    margin-top: 31px;
+}
+
+.person_sam {
+    width: 100%;
+    height: 252px;
+    display: flex;
+    margin-top: 31px;
+}
+
+.person_levis {
+    width: 100%;
+    height: 252px;
+    display: flex;
+    margin-top: 31px;
+}
+
+.img_chris {
+    width: 269px;
+    height: 250px;
+    background-image: url(../img/box-kira-img-01-269x250.jpg);
+    object-fit: cover;
+}
+
+.img_patrick {
+    width: 269px;
+    height: 250px;
+    background-image: url(../img/box-kira-img-02-269x250.jpg);
+    object-fit: cover;
+}
+
+.img_sam {
+    width: 269px;
+    height: 250px;
+    background-image: url(../img/box-kira-img-04-269x250.jpg);
+    object-fit: cover;
+}
+
+.img_levis {
+    width: 269px;
+    height: 250px;
+    background-image: url(../img/box-kira-img-03-269x250.jpg);
+    object-fit: cover;
+}
+
+.person_info {
+    width: 62%;
+    height: 100%;
+    margin-left: 38px;
+}
+
+.h2_person {
+    margin-top: 14px;
+}
+
+.person_p {
+    font-size: 17px;
+    margin-top: 26px;
+    color: #766E6E;
+}
+
+.person_connect {
+    margin-top: 43px;
+}
+
+a {
+    text-decoration: none;
+    color: #73B711;
+}
+
+.about_us {
+    width: 544px;
+    height: 100%;
+    margin-left: -55px;
+}
+
+.text_us1 {
+    background-color: #4A4A4A;
+    width: 544px;
+    height: 516px;
+    padding-top: 52px;
+}
+
+.text_us2 {
+    background-color: #353535;
+    width: 544px;
+    height: 516px;
+    padding-top: 52px;
+}
+
+.our_princiles {
+    padding: 36px;
+    width: 201px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFF9E2;
+}
+
+.second_word {
+    color: #73B711;
+}
+
+.us_p {
+    width: 71%;
+    font-size: 17px;
+    margin-top: 26px;
+    color: #FFF9E2;
+    padding-left: 37px;
+}
+
+.right_h2 {
+    margin-top: 6px;
+    color: #FFF9E2;
+    padding-left: 37px;
+    font-size: 20px;
+}
+
+.text_us3 {
+    background-color: #212121;
+    width: 544px;
+    height: 420px;
+    padding-top: 52px;
+}
+
+.section2 {
+    background-image: url(../img/download.jpg);
+    height: 642px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section2_col {
+    right: 8.5px;
+    position: relative;
+    height: 642px;
+}
+
+.overlay2 {
+    position: absolute;
+    width: 108%;
+    height: 100%;
+    background-color: #404140;
+    right: 0;
+    top: 0;
+    opacity: 75%;
+    z-index: 1;
+    margin-right: -5px;
+}
+
+.section2_content {
+    position: relative;
+    z-index: 5;
+    top: 93px;
+}
+
+.quote {
+    position: absolute;
+    top: 60px;
+}
+
+.text1 {
+    color: white;
+    padding: 65px;
+    width: 426px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.name {
+    color: white;
+}
+
+.website {
+    color: #212121;
+}
+
+.website:hover {
+    color: white;
+}
+
+.all_testimon {
+    position: absolute;
+    left: -50px;
+    bottom: -152px;
+    color: white;
+    background-color: #73B711;
+    padding: 24px;
+    font-weight: 600;
+}
+
+.all_testimon:hover {
+    background-color: white;
+    color: #73B711;
+}
+
+.endzone {
+    width: 100%;
+    height: 107vh;
+    background-color: #212121
+}
+
+.endzone_left {
+    width: 890px;
+    margin-left: 52px;
+}
+
+.no_better {
+    color: white;
+    font-size: 34px;
+    margin-top: 99px;
+}
+
+.service_any {
+    color: #73B711;
+}
+
+.repair_video {
+    width: 570px;
+    height: 322px;
+    margin-top: 20px;
+}
+
+.text2 {
+    color: #888882;
+    line-height: 25px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.endzone_right {
+    background-color: #73B711;
+    width: 550px;
+    height: 771px;
+    margin-left: -53.5px;
+}
+
+.six_reason {
+    color: white;
+    padding: 77px 0 44px 44px;
+    font-size: 37px;
+}
+
+.end_list {
+    margin-left: 60px;
+}
+
+.list_text {
+    color: white;
+}
+
+.black_zone {
+    background-color: black;
+    width: 100%;
+    height: 69px;
+    margin-top: -2px;
+}
+
+.end_text {
+    color: #4A4A4A;
+    padding: 27px 0px;
+    margin: 0px 145px;
+    font-size: 14px;
+}
+
+.privacy {
+    color: #73B711;
+}
+
+.privacy:hover {
+    color: white;
+}

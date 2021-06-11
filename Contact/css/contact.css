@@ -1,0 +1,279 @@
+    @import url(../css/grid.css);
+    @import url(../css/spacing.css);
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+     ::selection {
+        background-color: #73B711;
+        color: white;
+    }
+    
+    .header_section {
+        background-image: url(../img/slider-1-2050x1009X5.jpg);
+        height: 200px;
+        position: relative;
+    }
+    
+    .header_zone {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .header_icon {
+        background-image: url(../img/logo-default-164x61.png);
+        background-repeat: no-repeat;
+        width: 163px;
+        height: 62px;
+        position: absolute;
+        left: 163px;
+        top: 28px;
+    }
+    
+    .header_location {
+        color: white;
+        position: relative;
+        left: 370px;
+        top: 28px;
+    }
+    
+    .header_overlay {
+        width: 561px;
+        height: 100%;
+        background-color: #4A4A4A;
+        opacity: 56%;
+        position: absolute;
+        right: 4px;
+    }
+    
+    .street {
+        color: white;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    
+    .tel_numbr {
+        color: #212121;
+        font-size: 32px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    .black_line {
+        width: 104%;
+        height: 78px;
+        background-color: #212121;
+        margin: 42px -30px;
+        position: relative;
+    }
+    
+    .menu_ul {
+        display: flex;
+        padding: 0px 18px 0px 136px;
+    }
+    
+    .menu_list {
+        padding: 26px;
+        border-right: 0.5px solid gray;
+        border-left: 0.5px solid gray;
+    }
+    
+    .contact_header {
+        background-color: #73B711;
+    }
+    
+    .menu_link {
+        color: white;
+        font-size: 23px;
+        text-decoration: none;
+    }
+    
+    .menu_list:hover {
+        background-color: #73B711;
+        color: white;
+    }
+    
+    .row_flex {
+        display: flex;
+    }
+    
+    .main_right {
+        width: 566px;
+        height: 373px;
+        background-color: #73B711;
+        margin: 0px -70px;
+    }
+    
+    .main_right_text {
+        padding: 95px 38px;
+        font-weight: 600;
+    }
+    
+    .map {
+        margin: 0px -39px;
+    }
+    
+    .left_text {
+        color: white;
+    }
+    
+    .number {
+        color: white;
+        font-size: 45px;
+    }
+    
+    .left_paragraf {
+        color: #21211C;
+        width: 338px;
+        padding: 24px 0px
+    }
+    
+    .section2 {
+        background-color: #EDEDED;
+        width: 100%;
+        height: 689px;
+    }
+    
+    .cuw {
+        color: #21211C;
+        padding: 105px 150px;
+        font-size: 30px;
+    }
+    
+    .aquestion {
+        color: #73B711;
+    }
+    
+    .form {
+        padding: 0px 0px 0px 137px;
+    }
+    
+    .name_input,
+    .telephone_input,
+    .email_input {
+        padding: 29px 114px;
+        border: 0.5px solid rgb(217, 215, 221);
+    }
+    
+    .message_input {
+        padding: 217px 30px 29px 121px;
+        margin: -236px 0px -57px 15px;
+        border: 0.5px solid rgb(217, 215, 221);
+    }
+    
+    .button {
+        display: flex;
+        margin-top: 48px;
+    }
+    
+    .submit,
+    .reset {
+        background-color: #73B711;
+        color: white;
+        padding: 30px;
+        font-weight: 600;
+    }
+    
+    .reset {
+        margin-left: 15px;
+    }
+    
+    .follow {
+        position: absolute;
+        right: 0px;
+        background-color: #3b3939;
+        width: 566px;
+        height: 688px;
+    }
+    
+    .icons_text {
+        padding: 100px 0px 0px 5px;
+    }
+    
+    .icons3 {
+        display: flex;
+        font-size: 62px;
+        color: white;
+        align-items: center;
+        margin: 25px 0px 35px 8px
+    }
+    
+    .fuoss {
+        font-size: 33px;
+        color: #ffffff;
+        font-weight: 700;
+        height: 25px;
+        padding: 0px 0px 0px 38px;
+    }
+    
+    .social_sites {
+        color: #73B711;
+    }
+    
+    .end_h2 {
+        color: white;
+        margin: 85px 0px 0px 38px;
+        font-size: 21px;
+    }
+    
+    .social {
+        padding-left: 30px;
+    }
+    
+    .social__icons {
+        color: white;
+        background-color: #242424;
+        padding: 16px 26px;
+        font-size: 29px;
+    }
+    
+    .atwitter:hover {
+        background-color: #1da1f2;
+        color: white;
+        transition: all 1 ease 0;
+    }
+    
+    .afacebook:hover {
+        background-color: #1877f2;
+        color: white;
+        transition: all 1 ease 0;
+    }
+    
+    .ainstagram:hover {
+        background-image: linear-gradient(blue, red, purple);
+        color: white;
+        transition: all 1 ease 0;
+    }
+    
+    .endtext {
+        color: white;
+        padding: 26px 0px 0px 38px;
+        font-size: 16.5px;
+        width: 305px;
+        line-height: 19px;
+    }
+    
+    .black_zone {
+        background-color: black;
+        width: 100%;
+        height: 69px;
+        margin-top: -2px;
+    }
+    
+    .end_text {
+        color: #4A4A4A;
+        padding: 26px 152px;
+        font-size: 14px;
+    }
+    
+    .privacy {
+        color: #73B711;
+    }
+    
+    .privacy:hover {
+        color: white;
+    }
