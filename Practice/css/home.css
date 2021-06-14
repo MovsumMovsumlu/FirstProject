@@ -14,7 +14,9 @@ body {
 }
 
 .py-2 {
+    justify-content: space-around;
     padding: 20px 0px;
+    display: flex;
 }
 
 .header {
@@ -52,8 +54,8 @@ h1 {
     width: 165px;
     height: 60px;
     display: block;
-    margin-left: 161px;
-    margin-top: 10px;
+    margin-left: -140px;
+    margin-top: 11px;
 }
 
 .logo {

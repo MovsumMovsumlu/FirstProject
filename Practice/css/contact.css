@@ -86,6 +86,33 @@
         background-color: #73B711;
     }
     
+    .drop {
+        position: relative;
+    }
+    
+    .dropdown {
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        background-color: #3b3939;
+        color: aliceblue;
+        width: 212px;
+        display: block;
+        line-height: 43px;
+        transform: translateY(0px);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.6s ease 0s;
+        font-size: 13px;
+        padding: 0px 0px 0px 30px;
+    }
+    
+    .drop:hover .dropdown {
+        transform: translateY(0px);
+        opacity: 1;
+        visibility: visible;
+    }
+    
     .menu_link {
         color: white;
         font-size: 23px;
