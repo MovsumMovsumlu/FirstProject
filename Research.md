@@ -36,10 +36,11 @@ Bunun üçün 2-lik say sistemini soldan sağa doğru 0-dan (element sayılımı
 
  ### VS Code-da Python kodu yazabilmək üçün lazımlı extentionlar hansılardır?
 
- • Python Extension Pack
- • Python Docstring Generator
- • AREPL for python
- • Kite
- • Python text explorer
+Python üçün yararlı olabiləcək etentionlar.
+ - Python Extension Pack
+ - Python Docstring Generator
+ - AREPL for python
+ - Kite
+ - Python text explorer
 
  [Mənbə](https://www.youtube.com/watch?v=W--_EOzdTHk)
