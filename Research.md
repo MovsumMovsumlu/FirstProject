@@ -44,3 +44,65 @@ Python üçün yararlı olabiləcək extention-lar.
  - Python text explorer
 
  [Mənbə](https://www.youtube.com/watch?v=W--_EOzdTHk)
+
+ ### Python dövrlər nədir? 
+
+ Python-da bir şeyin (yazı, rəqəm və s.) təkrar-təkrar yazılması dövr adlanır.Python-da 2 növ dövr vardır.Bunlar ***While*** (Dövürlərin sayı bəlli olan) və ***For***-dur(Dövürlərin sayı bəlli olmayan).***While***
+ Misal üçün Pragmatech sözünü 3 dəfə təkrar olaraq ekrana çıxmağını istəyirik.Bu zaman
+ ``` 
+  i=0
+
+ While i<5:
+     print ("Pragmatech")
+
+və
+
+Pragmatech
+Pragmatech
+Pragmatech
+ ```
+
+Cavabı qarşımıza çıxacaq.
+
+***For***-un yazı tipi iki yerə bölünür:
+***For*** i in [] , " " və ***For*** in range (a,b,c).Sonuncu yazdığımız tip isə 3 cür olur, **(a,b,c) , (a,b) , (a)**.Burada **a**- başlanğıc say, **b**- çatacağımız say, **c**- hər bir vahid yüksəldikcə alınan ədadin üzərinə gəlinəcək rəqəmdir.
+Məsələn siyahı yazmaq istəyiriksə:
+
+ ***For*** i in [1,2,3,4,5]
+        print(i)
+
+və
+
+1
+2
+3
+4
+5
+
+Cavabı qarşımıza çıxacaq.
+Məsələn (range-yə misal olaraq) 1-dən 5-ə kimi ədadlərin cəmini istəyiriksə:
+
+s=0
+***For*** i in range (1-5)
+        s=s+i
+print(s) - yazdıqda:
+
+15
+
+Cavabını görəcəyik.
+Əgər
+
+s=0
+***For*** i in range (1-5)
+        s=s+i
+        print(s) - şəklində yazsaq:
+
+1
+3
+6
+10
+15
+
+Cavabını görəcəyik.    
+
+[Mənbə](https://www.youtube.com/watch?v=XjFWvXlmQZI)
