@@ -54,9 +54,10 @@ Python üçün yararlı olabiləcək extention-lar.
 
  While i<5:
      print ("Pragmatech")
+ ```
 
 və
-
+```
 Pragmatech
 Pragmatech
 Pragmatech
@@ -65,44 +66,142 @@ Pragmatech
 Cavabı qarşımıza çıxacaq.
 
 ***For***-un yazı tipi iki yerə bölünür:
-***For*** i in [] , " " və ***For*** in range (a,b,c).Sonuncu yazdığımız tip isə 3 cür olur, **(a,b,c) , (a,b) , (a)**.Burada **a**- başlanğıc say, **b**- çatacağımız say, **c**- hər bir vahid yüksəldikcə alınan ədadin üzərinə gəlinəcək rəqəmdir.
+***For*** i in [] , " " və ***For*** in range (a,b,c).Sonuncu yazdığımız tip isə 3 cür olur, **(a,b,c) , (a,b) , (a)**.Burada **a**- başlanğıc say, **b**- çatacağımız say, **c**- hər bir vahid yüksəldikcə alınan ədədin üzərinə gəlinəcək rəqəmdir.
 Məsələn siyahı yazmaq istəyiriksə:
 
- ***For*** i in [1,2,3,4,5]
+```
+ Fori in [1,2,3,4,5]
         print(i)
+```
 
 və
-
+```
 1
 2
 3
 4
 5
+```
 
 Cavabı qarşımıza çıxacaq.
 Məsələn (range-yə misal olaraq) 1-dən 5-ə kimi ədadlərin cəmini istəyiriksə:
 
+```
 s=0
-***For*** i in range (1-5)
+For i in range (1-5)
         s=s+i
-print(s) - yazdıqda:
+print(s) ``` - yazdıqda:
 
+```
 15
+```
 
 Cavabını görəcəyik.
-Əgər
+Əgər:
 
+```
 s=0
-***For*** i in range (1-5)
+For i in range (1-5)
         s=s+i
-        print(s) - şəklində yazsaq:
+        print(s) ``` - şəklində yazsaq:
 
+```
 1
 3
 6
 10
 15
+```
 
 Cavabını görəcəyik.    
 
 [Mənbə](https://www.youtube.com/watch?v=XjFWvXlmQZI)
+
+### dict, list və tuple nədir? Hansı hallarda istifadə olunur?
+
+***Dictionary*** istifadə edərək yazdığımız bir sözün açılışını və ya sözə aid olan bir cümləni ekranda görə bilərik (Misal üçün) və {}- mötərizədən istifadə edərək yazılır.
+ Məs:
+
+ ```
+ oyunlar {Metal Gear Solid: Hideo Kojima tərəfidən yaradılmış oyun. , Max Payne: George Broussard tərəfindən yaradılmış oyun. , The Last Of Us: Neial Druckmann tərəfindən yaradılmış oyun. } 
+
+print(oyun)[Metal Gear Solid] - Hideo Kojima tərəfidən yaradılmış oyun.
+print(oyun)[Max Payne] - George Broussard tərəfindən yaradılmış oyun.
+print(oyun)[Last Of Us] - Neial Druckmann tərəfindən yaradılmış oyun.
+```
+
+***List*** adından da bəlli olduğu kimim listələmək üçün istifadə olunur və [] bu mötərizə ilə yazılır.Bu mötərizə harda qoyulsa bilmək lazımdır ki, artıq burda list düzəldilir.***List***- in əlavə extention-ları da var, bunlar :
+
+*append*- Listin sonuna element əlavə etmək üçündür.
+
+*insert*- Listin hər hansı yerinə element əlavə etmək üçündür və əlavə olaraq hara əlavə etmək istəyiriksə index sırasını da göstərmək lazımdır.
+
+*extend*- Listə birdən çox element əlavə etmək üçündür və əlavə olaraq *extend* -dən istifadə etdikdə əlavə etdiyimiz elemetlərdən *List* mötərizəsini silir.
+
+*remove*- Listdən elementi silmək üçündür, hansı elementi əlavə silmək istəyiriksə adını qeyd etmək lazımdır.
+
+*pop*- Listin sonunda ki, elementi silir.
+
+*reverse*- Listdə olan elementləri tərsdən yazır.
+
+*sort*- Listdə olan elementləri alfabetik sıra ilə düzür.
+
+*sorted*- ?
+
+Məsələn:
+
+```
+yeməklər = ["Dolma","Xaş","Basdırma","Aş" ]
+
+yeməklər.append("Daşdan yumuşaq hərşey")
+print(yeməklər)
+
+yeməklər = ["Dolma","Xaş","Basdırma","Aş","Daşdan yumuşaq hərşey"] .
+
+yeməklər.inster(1,"Daşdan yumuşaq hərşey")
+print(yeməklər)
+
+yeməklər = ["Dolma","Daşdan yumuşaq hərşey","Xaş","Basdırma","Aş"] .
+
+yeməklər2 = [ "Burger"]
+yeməklər.extend(yeməklər2)
+
+yeməklər = ["Dolma","Xaş","Basdırma","Aş","Burger" ] .
+
+yeməklər.remove(Daşdan yumuşaq hərşey)
+
+yeməklər = ["Dolma","Xaş","Basdırma","Aş" ] .
+
+yeməklər.pop()
+print(yeməklər)
+
+yeməklər = ["Dolma","Xaş","Basdırma" ]
+
+or
+
+bişməyən = yeməklər.pop()
+print(yeməklər)
+print(bişməyən)
+
+yeməklər = ["Dolma","Xaş","Basdırma" ]
+Aş .
+
+yeməklər.reverse()
+print(yeməklər)
+
+yeməklər = ["Aş","Basdırma","Xaş","Dolma" ] .
+
+yeməklər.sort()
+print(yeməklər)
+
+yeməklər = ["Aş","Basdırma","Dolma","Xaş" ] .
+
+yeməklər.sorter ?
+```
+
+***Tuple*** list-ə bənzəsədə aralarinda çox fərqlər var.Məsələn ***List*** [] mötərizədə yazıldığı halda ***Tuple*** () bu mötərizədə yazılır.***Tuple*** mötərizə istifadə olunmadan belə yazmaq mümkündür.***Tuple*** içində ***List*** yazmaq mümkündür.
+
+[Mənbə](https://www.youtube.com/watch?v=iW6_F77ut0w)
+[Mənbə](https://www.youtube.com/watch?v=pBMuc4cc_Ck)
+[Mənbə](https://www.youtube.com/watch?v=0WV7-eSe4Ow)
+
